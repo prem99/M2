@@ -13,24 +13,24 @@ import edu.gatech.oad.antlab.pkg2.*;
  * in the package structure
  */
  public class AntLabMain {
-
+    
     /**antlab11.java message class*/
     private AntLab11 ant11;
-
+    
     /**antlab12.java message class*/
     private AntLab12 ant12;
-
+    
     /**antlab21.java message class*/
     private AntLab21 ant21;
-
+    
     /**antlab22.java message class*/
     private AntLab22 ant22;
-
+    
     /**antlab31 java message class which is contained in a jar resource file*/
     private AntLab31 ant31;
-
-
-
+    
+    
+    
     /**
      * the constructor that intializes all the helper classes
      */
@@ -69,9 +69,9 @@ import edu.gatech.oad.antlab.pkg2.*;
 		  toPrint += p3.toString("gburdell3");
                   //Person4 replace P4 with your name
                   //and gburdell4 with your gt id
-                  Person4 p4 = new Person4("P4");
-                  toPrint += p4.toString("gburdell4");
-                  //Person5 replace P5 with your name
+                  Person4 p4 = new Person4("charlie");
+                  toPrint += p4.toString("cking90");
+                  //Person5 replace P4 with your name
                   //and gburdell5 with your gt id
                   Person5 p5 = new Person5("daniel");
                   toPrint += p5.toString("djustice8");
