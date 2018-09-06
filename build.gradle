@@ -4,13 +4,13 @@ defaultTasks 'jar'
 jar {
     manifest {
         attributes(
-            'Main-Class' : 'AntLabMain',
-            'Class-Path' : 'libs.build.M2.src.main.java.edu.gatech.oad.AntLab.pkg1.AntLabMain.java'
+            'Main-Class' : 'edu.gatech.oad.AntLab.pkg1.AntLabMain',
+            'Class-Path' : 'libs/src/main/java/edu/gatech/oad/AntLab/pkg1/AntLabMain.java'
         )
 
     }
 }
 
 dependencies {
-    compile fileTree(dir: 'lib', include: '*.jar')
+    compile files('lib/resources.jar')
 }
