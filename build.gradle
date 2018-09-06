@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+jar {
+    manifest {
+        attributes {
+            'Main-Class' : 'AntLabMain.java'
+            'Class-Path' : 'M2.src.main.java.edu.gatech.oad.AntLab.pkg1.AntLabMain.java'
+        }
+
+    }
+}
+
+dependencies {
+
+}
