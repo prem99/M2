@@ -4,10 +4,10 @@ defaultTasks 'jar'
 jar {
     manifest {
 
-        attributes
+        attributes(
             'Main-Class' : 'edu.gatech.oad.antlab.pkg1.AntLabMain',
             'Class-Path' : 'libs/src/main/java/edu/gatech/oad/AntLab/pkg1/AntLabMain.java'
-
+        )
     }
 }
 
