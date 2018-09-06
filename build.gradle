@@ -1,15 +1,16 @@
 apply plugin: 'java'
 defaultTasks 'jar'
+
 jar {
     manifest {
         attributes(
             'Main-Class' : 'AntLabMain',
-            'Class-Path' : 'M2.src.main.java.edu.gatech.oad.AntLab.pkg1.AntLabMain.java'
+            'Class-Path' : 'libs.build.M2.src.main.java.edu.gatech.oad.AntLab.pkg1.AntLabMain.java'
         )
 
     }
 }
 
 dependencies {
-    compile fileTree(dir: 'src', include: '*.java')
+    compile fileTree(dir: 'lib', include: '*.jar')
 }
